@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class PortfConfig(AppConfig):
+class FolioConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'portF'
+    name = 'folio'
