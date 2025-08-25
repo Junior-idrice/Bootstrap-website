@@ -4,3 +4,5 @@ from django.shortcuts import render
 
 def index(request):
     return render(request, 'folio/index.html')
+def layout(request):
+    return render(request,'folio/layout.html')
